@@ -147,3 +147,17 @@ Doctor suggestions are clearly labeled as informational.
 Medical risk estimation and doctor recommendation are deliberately separated.
 This ensures safety, clarity, and ethical compliance while maintaining
 user usefulness.
+
+### 8.4 Fairness-Aware Distribution Strategy
+
+To prevent concentration of users toward a single provider, the system applies
+a fairness-aware ranking strategy.
+
+Approach:
+- Doctors with similar ratings are grouped
+- Final ordering is determined using weighted randomization
+- Higher-rated doctors retain higher selection probability
+- No single doctor is always shown first
+
+This strategy balances recommendation quality with equitable distribution and
+reduces unintentional overcrowding at clinics.
