@@ -24,3 +24,4 @@ This project is for educational and research purposes only.
 It does **not** provide medical advice, diagnosis, or treatment and should not be used as a substitute for professional healthcare consultation.
 
 For detailed design and methodology, see `docs/project_documentation.md`.
+
